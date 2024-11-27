@@ -42,9 +42,9 @@ pip install -r requirements.txt
 ### 4. Obtain API Keys
 Get your API keys for:
 
--Cohere: Sign up at Cohere to obtain an API key.
--Pinecone: Sign up at Pinecone to obtain an API key.
--These keys will be entered via the Streamlit interface when running the app.
+- Cohere: Sign up at Cohere to obtain an API key.
+- Pinecone: Sign up at Pinecone to obtain an API key.
+These keys will be entered via the Streamlit interface when running the app.
 
 ### 5. Run the Application
 
@@ -61,14 +61,13 @@ Once the application is running, open your browser and navigate to the URL provi
 Use the interface to upload a PDF file containing the content you want to query.
 
 ### 8. Ask Questions
--Enter your question in the query box. The chatbot will:
+- Enter your question in the query box. The chatbot will:
 
--Retrieve relevant chunks of text from the uploaded document.
--Generate a precise and context-aware response.
+- Retrieve relevant chunks of text from the uploaded document.
+- Generate a precise and context-aware response.
 
 # Project Structure
 ```bash
-.
 ├── app.py                # Main application file with Streamlit interface
 ├── vectorstore.py        # Handles PDF processing, embedding, and retrieval
 ├── chatbot.py            # Handles user interaction and response generation
@@ -82,7 +81,7 @@ Enhance the UI with multi-document support and export options for chat history.
 Enable deployment to cloud platforms for wider accessibility.
 Integrate additional vector databases for broader compatibility.
 
-###License
+### License
 This project is licensed under the -[Apache License].
 
 ### Acknowledgments
