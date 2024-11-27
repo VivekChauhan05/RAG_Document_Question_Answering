@@ -22,6 +22,7 @@ Clone the repository to your local system using the following command:
 ```bash
 git clone https://github.com/VivekChauhan05/RAG_Document_Question_Answering.git
 cd RAG_Document_Question_Answering
+```
 
 ### 2. Create and Activate a Virtual Environment
 Create a virtual environment and activate it to isolate project dependencies:
@@ -29,13 +30,14 @@ Create a virtual environment and activate it to isolate project dependencies:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
- 
+```
 
 ### 3. Install Dependencies
 Install the required Python libraries using the provided requirements.txt file:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 4. Obtain API Keys
 Get your API keys for:
@@ -50,6 +52,7 @@ Launch the Streamlit application:
 
 ```bash
 streamlit run app.py
+```
 
 ### 6. Access the Application
 Once the application is running, open your browser and navigate to the URL provided by Streamlit, typically http://localhost:8501.
@@ -71,7 +74,7 @@ Use the interface to upload a PDF file containing the content you want to query.
 ├── chatbot.py            # Handles user interaction and response generation
 ├── requirements.txt      # Project dependencies
 ├── README.md             # Project documentation
-
+```
 
 ### Future Enhancements
 Add support for multi-language documents.
@@ -80,7 +83,7 @@ Enable deployment to cloud platforms for wider accessibility.
 Integrate additional vector databases for broader compatibility.
 
 ###License
-This project is licensed under the Apache License.
+This project is licensed under the -[Apache License].
 
 ### Acknowledgments
 Cohere AI for their powerful embedding and language models.
