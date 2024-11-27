@@ -51,6 +51,7 @@ These keys will be entered via the Streamlit interface when running the app.
 Launch the Streamlit application:
 
 ```bash
+cd src
 streamlit run app.py
 ```
 
