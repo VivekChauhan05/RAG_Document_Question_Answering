@@ -1,6 +1,5 @@
-import fitz
 import cohere
-import pinecone as pc
+import fitz
 from pinecone import Pinecone, ServerlessSpec
 
 class VectorStore:
