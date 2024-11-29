@@ -1,4 +1,4 @@
-streamlit==1.24.0 
+streamlit==1.33.0 
 cohere==5.9.0
 pinecone-client==5.0.0
 PyMuPDF==1.24.14
